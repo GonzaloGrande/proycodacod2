@@ -1,0 +1,160 @@
+.ticket {
+  background-color: #ffffff; /* Cambia el color de fondo aquí */
+}
+
+.nav-item {
+    transition: all 0.3s ease-in-out;
+  }
+
+.nav-item:hover { 
+background-color: #5f9c5f; 
+}
+
+.max-width-700 {
+    max-width: 700px;
+  }
+
+.no-text-decoration {
+   text-decoration: none;
+  }  
+#Comprar{
+  color:#1d6f1d;
+}
+button{
+  border: #1d6f1d;
+  background: none;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.primary-btn {
+
+  background: #7fc142;
+  font-weight: bold;
+  color:#ffffff; 
+  border-radius: 10%;
+}
+
+.secondary-btn {
+
+  background: none;
+
+  font-weight: bold;
+  color:#ffffff; 
+}
+
+
+#cardsvalores .card {
+  max-height:315px;
+  height:250px;
+  border-radius: 5px;
+}
+
+#cardsvalores .card-header {
+  text-align: center;
+  padding: 20px;
+}
+
+#cardsvalores .card-footer {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+#estudiante .card{
+  border: solid #007bff;
+}
+#estudiante .card-header {
+  background-color: #007bff;
+  color: white;
+}
+#estudiante .card-footer {
+  background-color: white;
+}
+
+
+
+
+#jubilado .card{
+  border: solid #5ee388;
+}
+#jubilado .card-header {
+  background-color: #5ee388;
+  color: white;
+}
+#jubilado .card-footer {
+  background-color: white;
+}
+
+
+
+#estandar .card{
+  border: solid #c5dd4e;
+}
+#estandar .card-header {
+  background-color: #c5dd4e;
+  color: white;
+}
+
+#estandar .card-footer {
+  background-color: white;
+}
+
+
+#venta{
+
+  width: 80%; /* El contenedor ocupa el 80% del ancho de su contenedor padre */
+  max-width: 800px; /* El contenedor no se expandirá más allá de 800px */
+  margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 1%;
+}
+
+ut::placeholder {
+  opacity: 15; /* Ajusta el valor de opacidad según tus preferencias */
+}
+
+.clickable-button {
+  background-color: #7Fc142;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  margin: 3px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  height: 100%; /* Ajusta la altura del div para ocupar todo el espacio disponible */
+  }
+
+.clickable-button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+}
+
+.botones {
+  height: 5vh;
+
+}
+
+.clickable-button:focus {
+  outline: none;
+}
+
+#resumen {
+  height: 8vh;
+  justify-content: left;
+  align-items: center;
+  font-size: 100%;
+}
+
+#spTotal {
+    font-size: 140%;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  
+}
